@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Window from './Components/Window';
+import dayData from './DataAndFunctions/DayData';
+import getToday from './DataAndFunctions/GetToday';
+import Message from './Components/Message';
+import { useState } from 'react';
 
 function App() {
+
+  const [message, setMessage] = useState("")
+
+  const today = getToday()
+
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="calendar">
+      <div className='calendar_banner'>
+        <h1>React Advent Calendar</h1>
+        <h2>{today}</h2>
+      </div>
+      <div className='calendar_message'>
+        {message && <Message message={message}/>}
+      </div>
+      <div className="calendar_container">
+        {dayData.map((day, i) => {
+          return <Window key={i} data={day} setMessage={setMessage}/>
+        })}
+      </div>
     </div>
   );
 }

@@ -1,0 +1,43 @@
+$hollyOffest: -0.85em;
+
+.message {
+    background-color: antiquewhite;
+    border: 3px solid black;
+    border-radius: 0.5em;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    & > img {
+        width: 1.5em;
+
+        &.TR {
+            position: absolute;
+            top: $hollyOffest;
+            right: $hollyOffest;
+            transform: rotateZ(180deg);
+        }
+
+        &.BR {
+            position: absolute;
+            bottom: $hollyOffest;
+            right: $hollyOffest;
+            transform: rotateZ(-90deg);
+        }
+
+        &.BL {
+            position: absolute;
+            bottom: $hollyOffest;
+            left: $hollyOffest;
+        }
+
+        &.TL {
+            position: absolute;
+            top: $hollyOffest;
+            left: $hollyOffest;
+            transform: rotateZ(90deg);
+        }
+    }
+}

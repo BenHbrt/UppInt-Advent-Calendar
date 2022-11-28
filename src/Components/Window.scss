@@ -1,0 +1,40 @@
+.window {
+    height: 4.8em;
+    width: 4.8em;
+    justify-self: center;
+    // margin: 0 2em 2em 2em;
+}
+
+.closed {
+    border: 2px dashed lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(165, 42, 42, 0.5);
+
+    &:hover {
+        opacity: 0.5;
+        background-color: lightgray;
+        cursor: pointer;
+    }
+
+    & > span {
+        font-size: 3em;
+        text-shadow: 2px 2px 2px lightgray;
+    }
+}
+
+.open {
+    background-color: white;
+    border-radius: 0.4em;
+
+    & > img {
+        height: 4.8em;
+        width: 4.8em;
+    }
+
+    &:hover {
+        background-color: lightgray;
+        cursor: pointer;
+    }
+}

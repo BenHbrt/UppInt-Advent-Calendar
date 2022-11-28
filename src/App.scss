@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Mountains of Christmas', cursive;
+    user-select: none;
+}
+
+body {
+    background-image: url(../public/Images/christmas-1911637_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.calendar {
+
+    &_banner {
+        position: relative;
+        width: 100%;
+
+        > h2 {
+            color: lightgray;  
+            margin-left: 1em; 
+            margin-top: -1em;
+
+            @media screen and (min-width: 760px) {
+                margin-top: 1em;
+            }
+            
+        }
+
+        & > h1 {
+            
+            font-size: 3em;
+            text-align: center;
+            text-shadow: 2px 2px 2px lightgray;
+
+            @media screen and (min-width: 760px) {
+                position: absolute;
+                width: 100%;
+                margin-top: -0.4em;
+            }
+        }
+    }
+
+    &_message {
+        height: 4.25em;
+        display: flex;
+        justify-content: center;
+    }
+
+    &_container {
+        margin: 2em 2em 2em 2em;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto auto auto auto auto auto;
+        gap: 2em;
+
+        @media screen and (min-width: 465px) {
+            margin: 2em 2em 2em 2em;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: auto auto auto auto auto auto;
+            gap: 2em;
+        }
+         
+        @media screen and (min-width: 680px) {
+            margin: 2em 2em 0 2em;
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto;
+            grid-template-rows: auto auto auto auto;
+            gap: 2em;  
+        }
+        
+    }
+}
