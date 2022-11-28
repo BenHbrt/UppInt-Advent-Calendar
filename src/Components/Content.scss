@@ -4,11 +4,12 @@ $hollyOffest: -0.85em;
     background-color: antiquewhite;
     border: 3px solid black;
     border-radius: 0.5em;
-    padding: 1em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 1em 2em 1em 2em;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
     position: relative;
+    font-family: Arial, Helvetica, sans-serif;
 
     & > img {
         width: 1.5em;
@@ -39,5 +40,9 @@ $hollyOffest: -0.85em;
             left: $hollyOffest;
             transform: rotateZ(90deg);
         }
+    }
+
+    & > .play {
+        cursor: pointer;
     }
 }

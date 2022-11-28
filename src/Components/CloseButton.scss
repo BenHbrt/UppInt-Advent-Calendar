@@ -1,0 +1,10 @@
+.closebutton {
+    cursor: pointer;
+    position: absolute;
+    top: 0.4em;
+    right: 0.4em;
+    
+    & > img {
+        width: 1.5em;
+    }
+}
