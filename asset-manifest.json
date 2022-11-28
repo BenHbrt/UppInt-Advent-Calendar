@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ruppint-advent-calendar/static/css/main.564ccdcc.css",
-    "main.js": "/ruppint-advent-calendar/static/js/main.4d6a7cac.js",
-    "static/media/christmas-1911637_960_720.jpg": "/ruppint-advent-calendar/static/media/christmas-1911637_960_720.9b48c841971a76452092.jpg",
-    "static/media/TestRecording.m4a": "/ruppint-advent-calendar/static/media/TestRecording.fa375468a1a3745c8a9f.m4a",
-    "static/media/mistletoe.png": "/ruppint-advent-calendar/static/media/mistletoe.b55786cf62dc5d05cdb3.png",
-    "index.html": "/ruppint-advent-calendar/index.html",
-    "main.564ccdcc.css.map": "/ruppint-advent-calendar/static/css/main.564ccdcc.css.map",
-    "main.4d6a7cac.js.map": "/ruppint-advent-calendar/static/js/main.4d6a7cac.js.map"
+    "main.css": "/UppInt-Advent-Calendar/static/css/main.c826d545.css",
+    "main.js": "/UppInt-Advent-Calendar/static/js/main.4547eaad.js",
+    "static/media/christmas-1911637_960_720.jpg": "/UppInt-Advent-Calendar/static/media/christmas-1911637_960_720.9b48c841971a76452092.jpg",
+    "static/media/TestRecording.m4a": "/UppInt-Advent-Calendar/static/media/TestRecording.fa375468a1a3745c8a9f.m4a",
+    "static/media/mistletoe.png": "/UppInt-Advent-Calendar/static/media/mistletoe.b55786cf62dc5d05cdb3.png",
+    "index.html": "/UppInt-Advent-Calendar/index.html",
+    "main.c826d545.css.map": "/UppInt-Advent-Calendar/static/css/main.c826d545.css.map",
+    "main.4547eaad.js.map": "/UppInt-Advent-Calendar/static/js/main.4547eaad.js.map"
   },
   "entrypoints": [
-    "static/css/main.564ccdcc.css",
-    "static/js/main.4d6a7cac.js"
+    "static/css/main.c826d545.css",
+    "static/js/main.4547eaad.js"
   ]
 }
