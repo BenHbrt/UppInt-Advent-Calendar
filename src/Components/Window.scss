@@ -2,14 +2,15 @@
     height: 4.8em;
     width: 4.8em;
     justify-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     // margin: 0 2em 2em 2em;
 }
 
 .closed {
     border: 2px dashed lightgray;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
     background-color: rgba(165, 42, 42, 0.5);
 
     &:hover {
@@ -28,9 +29,8 @@
     background-color: white;
     border-radius: 0.4em;
 
-    & > img {
-        height: 4.8em;
-        width: 4.8em;
+    & > span {
+        font-size: 3em;
     }
 
     &:hover {

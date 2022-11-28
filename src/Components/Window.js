@@ -2,28 +2,36 @@ import './Window.scss';
 import { useState } from 'react'
 import checkDate from '../DataAndFunctions/CheckDay';
 
-const Window = ({ data, setMessage }) => {
+const Window = ({ data, setContent, setDisplay }) => {
 
     const [open, setOpen] = useState(checkDate(data.date))
+    const today = new Date("2022-12-06")
 
     const openWindow = () => {
-        const today = new Date("2022-12-06")
-        if (today.getDate() == data.date) {
+        
+        if (today.getDate() === data.date) {
             setOpen(true)
-            setMessage(data.text)
+            setContent("TEXT")
+            setDisplay("Content")
         } else {
-            setMessage("Naughty, naughty! You have to wait to open this one!")
+            setContent("Naughty, naughty! You have to wait to open this one!")
+            setDisplay("Content")
         }
         
     }
 
+    const displayContent = () => {
+        setContent("TEXT")
+        setDisplay("Content")
+    }
+
     return (
         <>
-        {!open && <div className="window closed" onClick={openWindow}>
+        {(!open)&& <div className="window closed" onClick={openWindow}>
             <span>{data.date}</span>
         </div>}
-        {open && <div className="window open" onClick={() => setMessage(data.text)}>
-            <img src={`./Images/${data.image}`} />
+        {(open) && <div className="window open" onClick={displayContent}>
+            <span>{data.data.phoneme.symbol}</span>
         </div>}
         </>
     )

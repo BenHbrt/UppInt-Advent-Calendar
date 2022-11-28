@@ -76,13 +76,17 @@ body {
             gap: 2em;
         }
          
-        @media screen and (min-width: 680px) {
-            margin: 2em 2em 0 2em;
+        @media screen and (min-width: 1020px) {
+            margin: 4em 2em 0 2em;
             display: grid;
             grid-template-columns: auto auto auto auto auto auto;
             grid-template-rows: auto auto auto auto;
-            gap: 2em;  
+            gap: 6em;  
         }
         
     }
+}
+
+.hidden {
+    display: none;
 }

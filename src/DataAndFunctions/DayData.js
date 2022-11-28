@@ -1,33 +1,39 @@
 const dayData = [
     {
         date: 1,
-        text: "Make a cup of tea and relax.",
-        image: "teddy-bear.png"
+        data: {
+            phoneme: {symbol: "ɑʊ"}
+        }
     },
     {
         date: 2,
-        text: "The festive season is about friends and family, not presents.",
-        image: "candy-cane.png"
+        data: {
+            phoneme: {symbol: "ʊ"}
+        }
     },
     {
         date: 3,
-        text: "It's good to enjoy a mulled wine from time to time.",
-        image: "christmas-wreath.png"
+        data: {
+            phoneme: {symbol: "ŋ"}
+        }
     },
     {
         date: 4,
-        text: "Why not read a book and relax?",
-        image: "elf.png"
+        data: {
+            phoneme: {symbol: "ɑɪ"}
+        }
     },
     {
         date: 5,
-        text: "Why not stay in and have a warm bath?",
-        image: "reindeer.png"
+        data: {
+            phoneme: {symbol: "ə"}
+        }
     },
     {
         date: 6,
-        text: "Enjoy the festive season. You don't have to rush all the time.",
-        image: "christmas-tree.png"
+        data: {
+            phoneme: {symbol: "ʤ"}
+        }
     },
     {
         date: 7,
