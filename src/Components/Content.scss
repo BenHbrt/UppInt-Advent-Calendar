@@ -10,6 +10,8 @@ $hollyOffest: -0.85em;
     // align-items: center;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
 
     & > img {
         width: 1.5em;
@@ -42,7 +44,52 @@ $hollyOffest: -0.85em;
         }
     }
 
-    & > .play {
-        cursor: pointer;
+    &_phoneme {
+        &_heading {
+            display: flex;
+            align-items: center;
+
+            > span {
+                font-size: 3em;
+                font-weight: 700;
+            }
+        }
+
+        &_playicon {
+            width: 1.2em;
+            margin-left: 0.5em;
+        }
+
+        &_text {
+            margin: 1em 0 1em;
+        }
     }
+
+    &_audioex {
+        display: flex;
+        align-items: center;
+
+        & strong {
+            margin-right: 0.5em;
+        }
+
+        &_playicon {
+            width: 1.2em;
+            margin-left: 0.5em;
+        }
+    }
+
+    &_divider {
+        width: 2px;
+        border: 1px solid black;
+        margin: 0 2em;
+    }
+
+    &_question {
+
+    }
+
+    
+
+    
 }

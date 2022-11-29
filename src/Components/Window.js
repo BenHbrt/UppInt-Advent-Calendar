@@ -11,7 +11,7 @@ const Window = ({ data, setContent, setDisplay }) => {
         
         if (today.getDate() === data.date) {
             setOpen(true)
-            setContent("TEXT")
+            setContent(data)
             setDisplay("Content")
         } else {
             setContent("Naughty, naughty! You have to wait to open this one!")
@@ -21,7 +21,7 @@ const Window = ({ data, setContent, setDisplay }) => {
     }
 
     const displayContent = () => {
-        setContent("TEXT")
+        setContent(data)
         setDisplay("Content")
     }
 

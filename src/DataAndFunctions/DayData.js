@@ -2,8 +2,13 @@ const dayData = [
     {
         date: 1,
         data: {
-            phoneme: {symbol: "ɑʊ"}
+            phoneme: {  symbol: "ɑʊ",
+                        audio: "PhAU.m4a",
+                        examples: [["out", "/aʊt/", "out.m4a"], ["amount", "/əmaʊnt/", "amount.m4a"], ["foundation", "/faʊndeɪʃən/", "foundation.m4a"]]
+            }
         }
+        
+        
     },
     {
         date: 2,

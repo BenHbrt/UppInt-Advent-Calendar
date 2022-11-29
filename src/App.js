@@ -28,7 +28,7 @@ function App() {
         })}
       </div>
       <div className={`${display === "Content" ? "" : "hidden"} calendar_content`}>
-        <Content content={content} setDisplay={setDisplay} display={display} />
+        {content && <Content content={content} setDisplay={setDisplay} display={display} />}
       </div>
       <div className={`${display === "Credits" ? "" : "hidden"} calendar_credits`}>
         <Credits setDisplay={setDisplay} />
