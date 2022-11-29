@@ -15,10 +15,10 @@ const Content = ({ content, setDisplay }) => {
         <div className="content">
             
             <CloseButton func={() => setDisplay("Calendar")} />
-            <img className="TR" src={require('../Images/mistletoe.png')} alt=""/>
-            <img className="BR" src={require('../Images/mistletoe.png')} alt=""/>
-            <img className="BL" src={require('../Images/mistletoe.png')} alt=""/>
-            <img className="TL" src={require('../Images/mistletoe.png')} alt=""/>
+            <img className="TR" src={require('../Images/holly-g5eb13151e_640.png')} alt=""/>
+            <img className="BR" src={require('../Images/holly-g5eb13151e_640.png')} alt=""/>
+            <img className="BL" src={require('../Images/holly-g5eb13151e_640.png')} alt=""/>
+            <img className="TL" src={require('../Images/holly-g5eb13151e_640.png')} alt=""/>
             
             <div className='content_phoneme'>
                 <div className="content_phoneme_heading">

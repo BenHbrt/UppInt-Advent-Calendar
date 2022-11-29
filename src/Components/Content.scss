@@ -1,4 +1,4 @@
-$hollyOffest: -0.85em;
+$hollyOffest: -1.1em;
 
 .content {
     background-color: antiquewhite;
@@ -14,33 +14,34 @@ $hollyOffest: -0.85em;
     flex-direction: row;
 
     & > img {
-        width: 1.5em;
+        width: 2.2em;
 
         &.TR {
             position: absolute;
             top: $hollyOffest;
             right: $hollyOffest;
-            transform: rotateZ(180deg);
+            transform: rotateZ(-90deg);
         }
 
         &.BR {
             position: absolute;
             bottom: $hollyOffest;
             right: $hollyOffest;
-            transform: rotateZ(-90deg);
+            transform: rotateZ(0deg);
         }
 
         &.BL {
             position: absolute;
             bottom: $hollyOffest;
             left: $hollyOffest;
+            transform: rotateZ(90deg);
         }
 
         &.TL {
             position: absolute;
             top: $hollyOffest;
             left: $hollyOffest;
-            transform: rotateZ(90deg);
+            transform: rotateZ(180deg);
         }
     }
 
@@ -83,6 +84,7 @@ $hollyOffest: -0.85em;
         width: 2px;
         border: 1px solid black;
         margin: 0 2em;
+        background-color: black;
     }
 
     &_question {
