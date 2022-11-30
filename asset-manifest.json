@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/UppInt-Advent-Calendar/static/css/main.c826d545.css",
-    "main.js": "/UppInt-Advent-Calendar/static/js/main.4547eaad.js",
-    "static/media/christmas-1911637_960_720.jpg": "/UppInt-Advent-Calendar/static/media/christmas-1911637_960_720.9b48c841971a76452092.jpg",
-    "static/media/TestRecording.m4a": "/UppInt-Advent-Calendar/static/media/TestRecording.fa375468a1a3745c8a9f.m4a",
-    "static/media/mistletoe.png": "/UppInt-Advent-Calendar/static/media/mistletoe.b55786cf62dc5d05cdb3.png",
+    "main.css": "/UppInt-Advent-Calendar/static/css/main.54375bac.css",
+    "main.js": "/UppInt-Advent-Calendar/static/js/main.3e65ad24.js",
+    "static/media/hd-wallpaper-g96f4c3791_1280.jpg": "/UppInt-Advent-Calendar/static/media/hd-wallpaper-g96f4c3791_1280.662500d59dac19930e59.jpg",
+    "static/media/holly-g5eb13151e_640.png": "/UppInt-Advent-Calendar/static/media/holly-g5eb13151e_640.d3f9762e74736bcf72a0.png",
+    "static/media/PhAU.m4a": "/UppInt-Advent-Calendar/static/media/PhAU.a283580481ee66187208.m4a",
+    "static/media/foundation.m4a": "/UppInt-Advent-Calendar/static/media/foundation.798675d1aaa17933b975.m4a",
+    "static/media/out.m4a": "/UppInt-Advent-Calendar/static/media/out.8762f5d0dd7d63d77da4.m4a",
+    "static/media/amount.m4a": "/UppInt-Advent-Calendar/static/media/amount.dd96309e4597c5bd3604.m4a",
     "index.html": "/UppInt-Advent-Calendar/index.html",
-    "main.c826d545.css.map": "/UppInt-Advent-Calendar/static/css/main.c826d545.css.map",
-    "main.4547eaad.js.map": "/UppInt-Advent-Calendar/static/js/main.4547eaad.js.map"
+    "main.54375bac.css.map": "/UppInt-Advent-Calendar/static/css/main.54375bac.css.map",
+    "main.3e65ad24.js.map": "/UppInt-Advent-Calendar/static/js/main.3e65ad24.js.map"
   },
   "entrypoints": [
-    "static/css/main.c826d545.css",
-    "static/js/main.4547eaad.js"
+    "static/css/main.54375bac.css",
+    "static/js/main.3e65ad24.js"
   ]
 }
