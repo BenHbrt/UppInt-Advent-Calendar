@@ -2,9 +2,19 @@ const dayData = [
     {
         date: 1,
         data: {
-            phoneme: {  symbol: "ɑʊ",
-                        audio: "PhAU.m4a",
-                        examples: [["out", "/aʊt/", "out.m4a"], ["amount", "/əmaʊnt/", "amount.m4a"], ["foundation", "/faʊndeɪʃən/", "foundation.m4a"]]
+            phoneme: {  
+                symbol: "ɑʊ",
+                audio: "PhAU.m4a",
+                examples: [["out", "/aʊt/", "out.m4a"], ["amount", "/əmaʊnt/", "amount.m4a"], ["foundation", "/faʊndeɪʃən/", "foundation.m4a"]],
+                note: "This is a dipthong."
+            },
+            question: {
+                stem: "What is Ben's favourite animal?",
+                A: "Cat",
+                B: "Dog",
+                C: "Capybara",
+                answer: "A",
+                note: "Ben likes capybaras because they are chilled."
             }
         }
         

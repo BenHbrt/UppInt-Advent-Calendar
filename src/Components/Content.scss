@@ -46,6 +46,7 @@ $hollyOffest: -1.1em;
     }
 
     &_phoneme {
+
         &_heading {
             display: flex;
             align-items: center;
@@ -89,6 +90,49 @@ $hollyOffest: -1.1em;
 
     &_question {
 
+        &_container {
+            display: flex;
+        }
+
+
+        &_result {
+            color: transparent;
+            line-height: 2.5em;
+
+            &-correct {
+                color: green;
+                line-height: 2.5em;
+            }
+
+            &-incorrect {
+                color: red;
+                line-height: 2.5em;
+            }
+        }
+
+        &_answer {
+            line-height: 1.5em;
+            border: 1px solid transparent;
+            padding: 0 0.5em;
+            border-radius: 1em;
+
+            &:hover {
+                border: 1px solid black;
+                cursor: pointer;
+            }
+        }
+
+        &_control {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 2em;
+            width: 6.25em;
+        }
+
+        &_note {
+            line-height: 2.5em;
+        }
     }
 
     
