@@ -46,6 +46,7 @@ $hollyOffest: -1.1em;
     }
 
     &_phoneme {
+        max-width: 26.5em;
 
         &_heading {
             display: flex;
@@ -89,6 +90,7 @@ $hollyOffest: -1.1em;
     }
 
     &_question {
+        max-width: 26.5em;
 
         &_container {
             display: flex;
@@ -143,11 +145,11 @@ $hollyOffest: -1.1em;
         }
 
         &_note {
-            line-height: 2.5em;
+            margin-top: 1em;
             visibility: hidden;
 
             &-visible {
-                line-height: 2.5em;
+                margin-top: 1em;
                 visibility: visible;
             }
         }

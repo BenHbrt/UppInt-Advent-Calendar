@@ -1,0 +1,82 @@
+$hollyOffest: -1.1em;
+
+.credits {
+    background-color: antiquewhite;
+    border: 3px solid black;
+    border-radius: 0.5em;
+    padding: 0.5em 2em 0.5em 2em;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 18em;
+
+    @media screen and (min-width: 410px) {
+        padding: 1em 2em 1em 2em;
+        max-width: none;
+    }
+
+    @media screen and (min-width: 1000px) {
+        padding: 1em 2em 1em 2em;
+        max-width: 58.5em;
+    }
+
+    & > h2 {
+        text-align: center;
+    }
+
+    & > img {
+        width: 2.2em;
+
+        &.TR {
+            position: absolute;
+            top: $hollyOffest;
+            right: $hollyOffest;
+            transform: rotateZ(-90deg);
+        }
+
+        &.BR {
+            position: absolute;
+            bottom: $hollyOffest;
+            right: $hollyOffest;
+            transform: rotateZ(0deg);
+        }
+
+        &.BL {
+            position: absolute;
+            bottom: $hollyOffest;
+            left: $hollyOffest;
+            transform: rotateZ(90deg);
+        }
+
+        &.TL {
+            position: absolute;
+            top: $hollyOffest;
+            left: $hollyOffest;
+            transform: rotateZ(180deg);
+        }
+    }
+
+    & > a > img {
+        height: 4.25em;
+        margin-right: 2em;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &_icons {
+        font-family: 'Mountains of Christmas', cursive;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        
+        & > span {
+            font-size: 2em;
+            padding-left: 0.2em;
+        }
+
+        & > img {
+            width: 2.8em;
+        }
+    }
+}

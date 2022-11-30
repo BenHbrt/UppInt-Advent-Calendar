@@ -6,15 +6,15 @@ const dayData = [
                 symbol: "ɑʊ",
                 audio: "PhAU.m4a",
                 examples: [["out", "/aʊt/", "out.m4a"], ["amount", "/əmaʊnt/", "amount.m4a"], ["foundation", "/faʊndeɪʃən/", "foundation.m4a"]],
-                note: "This is a dipthong."
+                note: "This is a dipthong, which means it is a sound made by moving from one vowel sound to another, in this case from /ɑ/ to /ʊ/."
             },
             question: {
-                stem: "What is Ben's favourite animal?",
-                A: "Cat",
-                B: "Dog",
-                C: "Capybara",
+                stem: "Jana realised that she ________ to put on her hat when she stepped outside.",
+                A: "forgot",
+                B: "forgotten",
+                C: "had forgotten",
                 answer: "C",
-                note: "Ben likes capybaras because they are chilled."
+                note: "The past perfect should be used here to highlight that she forgot to put on her hat before she stepped outside."
             }
         }
         

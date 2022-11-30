@@ -5,6 +5,7 @@ import getToday from './DataAndFunctions/GetToday';
 import Content from './Components/Content';
 import Credits from './Components/Credits';
 import CreditsButton from './Components/CreditsButton';
+import Naughty from './Components/Naughty';
 import { useState, useRef } from 'react';
 
 function App() {
@@ -29,6 +30,9 @@ function App() {
       </div>
       <div className={`${display === "Content" ? "" : "hidden"} calendar_content`}>
         {content && <Content content={content} setDisplay={setDisplay} display={display} />}
+      </div>
+      <div className={`${display === "Naughty" ? "" : "hidden"} calendar_naughty`}>
+        <Naughty setDisplay={setDisplay} />
       </div>
       <div className={`${display === "Credits" ? "" : "hidden"} calendar_credits`}>
         <Credits setDisplay={setDisplay} />

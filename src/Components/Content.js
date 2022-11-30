@@ -69,7 +69,7 @@ const Content = ({ content, setDisplay }) => {
                         <span className={`content_question_button${(selectedAnswer !== "") && (result === "NONE") ? "-active" : ""}`} onClick={checkAnswer}>Check Answer</span>
                     </div>
                 </div>
-                <span className={`content_question_note${result !== "NONE" ? "-visible" : ""}`}>{content.data.question.note}</span>
+                <div className={`content_question_note${result !== "NONE" ? "-visible" : ""}`}>{content.data.question.note}</div>
             </div>
         </div>
     )

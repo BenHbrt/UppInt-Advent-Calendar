@@ -1,0 +1,41 @@
+$hollyOffest: -1.1em;
+
+.naughty {
+    background-color: antiquewhite;
+    border: 3px solid black;
+    border-radius: 0.5em;
+    padding: 1em 2em 1em 2em;
+    position: relative;
+
+    & > img {
+        width: 2.2em;
+
+        &.TR {
+            position: absolute;
+            top: $hollyOffest;
+            right: $hollyOffest;
+            transform: rotateZ(-90deg);
+        }
+
+        &.BR {
+            position: absolute;
+            bottom: $hollyOffest;
+            right: $hollyOffest;
+            transform: rotateZ(0deg);
+        }
+
+        &.BL {
+            position: absolute;
+            bottom: $hollyOffest;
+            left: $hollyOffest;
+            transform: rotateZ(90deg);
+        }
+
+        &.TL {
+            position: absolute;
+            top: $hollyOffest;
+            left: $hollyOffest;
+            transform: rotateZ(180deg);
+        }
+    }
+}

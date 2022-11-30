@@ -19,7 +19,7 @@ body {
 }
 
 body {
-    background-image: url(../public/Images/christmas-1911637_960_720.jpg);
+    background-image: url(./Images/hd-wallpaper-g96f4c3791_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -87,7 +87,8 @@ body {
     }
 
     &_content,
-    &_credits {
+    &_credits,
+    &_naughty {
         margin: 4em 2em 2em 2em;
         display: flex;
         justify-content: center;
