@@ -6,6 +6,8 @@ $hollyOffest: -1.1em;
     border-radius: 0.5em;
     padding: 1em 2em 1em 2em;
     position: relative;
+    font-size: 1.5em;
+    font-weight: 700;
 
     & > img {
         width: 2.2em;
@@ -37,5 +39,27 @@ $hollyOffest: -1.1em;
             left: $hollyOffest;
             transform: rotateZ(180deg);
         }
+    }
+
+    &_text {
+        display: flex;
+        flex-direction: column;
+
+        @media screen and (min-width: 1020px) {
+            flex-direction: row;
+        }
+
+        & > span {
+            text-align: center;
+        }
+
+        &_first::after {
+            content: none;
+
+            @media screen and (min-width: 1020px) {
+                content: "\00a0";
+            }
+        }            
+        
     }
 }
