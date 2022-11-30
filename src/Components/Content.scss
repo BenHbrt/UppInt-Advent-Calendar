@@ -62,6 +62,10 @@ $hollyOffest: -1.1em;
         &_playicon {
             width: 1.2em;
             margin-left: 0.5em;
+
+            &:hover {
+                cursor: pointer;
+            }
         }
 
         &_text {
@@ -80,6 +84,10 @@ $hollyOffest: -1.1em;
         &_playicon {
             width: 1.2em;
             margin-left: 0.5em;
+
+            &:hover {
+                cursor: pointer;
+            }
         }
     }
 

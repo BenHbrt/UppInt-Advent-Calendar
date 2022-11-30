@@ -20,8 +20,13 @@ function App() {
   return (
     <div className="calendar">
       <div className='calendar_banner'>
-        <h1>Upp-Int Advent Calendar</h1>
-        <h2>{today}</h2>
+        <div className="calendar_banner_title">
+          Upp-Int Advent Calendar
+        </div>
+        <div className='calendar_banner_content'>
+          <h2>{today}</h2>
+          {(display !== "Credits") && <CreditsButton setDisplay={setDisplay} />}
+        </div>
       </div>
       <div className={`${display === "Calendar" ? "" : "hidden"} calendar_container`}>
         {dayData.map((day, i) => {
@@ -37,7 +42,6 @@ function App() {
       <div className={`${display === "Credits" ? "" : "hidden"} calendar_credits`}>
         <Credits setDisplay={setDisplay} />
       </div>
-      {(display !== "Credits") && <CreditsButton setDisplay={setDisplay} />}
     </div>
   );
 }

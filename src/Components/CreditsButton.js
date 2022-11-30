@@ -2,7 +2,7 @@ import './CreditsButton.scss'
 
 const CreditsButton = ({ setDisplay }) => {
     return (
-        <span className="creditsbutton" onClick={() => setDisplay("Credits")}>Credits</span>
+        <div className="creditsbutton" onClick={() => setDisplay("Credits")}>Credits</div>
     )
 }
 export default CreditsButton
