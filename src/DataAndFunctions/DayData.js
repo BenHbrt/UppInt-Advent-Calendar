@@ -13,7 +13,7 @@ const dayData = [
                 A: "Cat",
                 B: "Dog",
                 C: "Capybara",
-                answer: "A",
+                answer: "C",
                 note: "Ben likes capybaras because they are chilled."
             }
         }

@@ -1,10 +1,12 @@
 import './Content.scss'
+import Answer from './Answer';
 import { useState } from 'react';
 import CloseButton from './CloseButton';
 
 const Content = ({ content, setDisplay }) => {
 
-    const [result, setResult] = useState("INCORRECT")
+    const [result, setResult] = useState("NONE")
+    const [selectedAnswer, setSelectedAnswer] = useState("")
 
     const playAudio = (name) => {
         new Audio(require(`../Audio/Phonemes/${name}`)).play();
@@ -14,10 +16,26 @@ const Content = ({ content, setDisplay }) => {
         new Audio(require(`../Audio/${date}/${name}`)).play();
     }
 
+    const checkAnswer = () => {
+        if ((result === "NONE") && (selectedAnswer !== "")) {
+            if (selectedAnswer === content.data.question.answer) {
+                setResult("CORRECT")
+            } else {
+                setResult("INCORRECT")
+            }
+        }   
+    }
+
+    const closeWindow = () => {
+        setResult("NONE");
+        setSelectedAnswer("");
+        setDisplay("Calendar")
+    }
+
     return (
         <div className="content">
             
-            <CloseButton func={() => setDisplay("Calendar")} />
+            <CloseButton func={closeWindow} />
             <img className="TR" src={require('../Images/holly-g5eb13151e_640.png')} alt=""/>
             <img className="BR" src={require('../Images/holly-g5eb13151e_640.png')} alt=""/>
             <img className="BL" src={require('../Images/holly-g5eb13151e_640.png')} alt=""/>
@@ -42,18 +60,22 @@ const Content = ({ content, setDisplay }) => {
                 <span>{content.data.question.stem}</span><br/><br/>
                 <div className='content_question_container'>
                     <div className="content_question_answers">
-                        <span className="content_question_answer"><strong>A:</strong> {content.data.question.A}</span><br/>
-                        <span className="content_question_answer"><strong>B:</strong> {content.data.question.B}</span><br/>
-                        <span className="content_question_answer"><strong>C:</strong> {content.data.question.C}</span>
+                        <Answer name={"A"} text={content.data.question.A} answer={content.data.question.answer} result={result} selectedAnswer={selectedAnswer} setSelectedAnswer={setSelectedAnswer} />
+                        <Answer name={"B"}  text={content.data.question.B} answer={content.data.question.answer} result={result} selectedAnswer={selectedAnswer} setSelectedAnswer={setSelectedAnswer} />
+                        <Answer name={"C"}  text={content.data.question.C} answer={content.data.question.answer} result={result} selectedAnswer={selectedAnswer} setSelectedAnswer={setSelectedAnswer} />
                     </div>
                     <div className='content_question_control'>
                         <span className={`content_question_result${result === "CORRECT" ? "-correct" : (result === "INCORRECT" ? "-incorrect" : "")}`}><strong>{result}</strong></span>
-                        <span className="content_question_button">Check Answer</span>
+                        <span className={`content_question_button${(selectedAnswer !== "") && (result === "NONE") ? "-active" : ""}`} onClick={checkAnswer}>Check Answer</span>
                     </div>
                 </div>
-                <span className="content_question_note">{content.data.question.note}</span>
+                <span className={`content_question_note${result !== "NONE" ? "-visible" : ""}`}>{content.data.question.note}</span>
             </div>
         </div>
     )
 }
 export default Content;
+
+{/* <span className={`content_question_answer${result !== "NONE" ? "-answered" : ""}${selectedAnswer === "A" ? "-selected" : ""}`} onClick={() => setSelectedAnswer("A")}><strong>A:</strong> {content.data.question.A}</span><br/>
+                        <br/>
+                        <span className={`content_question_answer${selectedAnswer === "C" ? "-selected" : ""}`} onClick={() => setSelectedAnswer("C")}><strong>C:</strong> {content.data.question.C}</span> */}
