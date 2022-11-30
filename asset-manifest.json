@@ -1,19 +1,27 @@
 {
   "files": {
-    "main.css": "/UppInt-Advent-Calendar/static/css/main.d8ea59d6.css",
-    "main.js": "/UppInt-Advent-Calendar/static/js/main.194db2a9.js",
+    "main.css": "/UppInt-Advent-Calendar/static/css/main.74696a79.css",
+    "main.js": "/UppInt-Advent-Calendar/static/js/main.2bba74bb.js",
     "static/media/hd-wallpaper-g96f4c3791_1280.jpg": "/UppInt-Advent-Calendar/static/media/hd-wallpaper-g96f4c3791_1280.662500d59dac19930e59.jpg",
     "static/media/holly-g5eb13151e_640.png": "/UppInt-Advent-Calendar/static/media/holly-g5eb13151e_640.d3f9762e74736bcf72a0.png",
+    "static/media/insurance.m4a": "/UppInt-Advent-Calendar/static/media/insurance.f80f6c222bf7f03b395c.m4a",
     "static/media/PhAU.m4a": "/UppInt-Advent-Calendar/static/media/PhAU.a283580481ee66187208.m4a",
     "static/media/foundation.m4a": "/UppInt-Advent-Calendar/static/media/foundation.798675d1aaa17933b975.m4a",
+    "static/media/linguistic.m4a": "/UppInt-Advent-Calendar/static/media/linguistic.0fdad587c134dc65dae5.m4a",
     "static/media/out.m4a": "/UppInt-Advent-Calendar/static/media/out.8762f5d0dd7d63d77da4.m4a",
     "static/media/amount.m4a": "/UppInt-Advent-Calendar/static/media/amount.dd96309e4597c5bd3604.m4a",
+    "static/media/long.m4a": "/UppInt-Advent-Calendar/static/media/long.7800b453dda45219c8d0.m4a",
+    "static/media/kingdom.m4a": "/UppInt-Advent-Calendar/static/media/kingdom.dfc90ddbdf12dba37752.m4a",
+    "static/media/PhNG.m4a": "/UppInt-Advent-Calendar/static/media/PhNG.3028e1c5d00758de0c4b.m4a",
+    "static/media/should.m4a": "/UppInt-Advent-Calendar/static/media/should.e939c50cab0af4aaa1bd.m4a",
+    "static/media/PhgOOd.m4a": "/UppInt-Advent-Calendar/static/media/PhgOOd.e7fde425057af01788f6.m4a",
+    "static/media/good.m4a": "/UppInt-Advent-Calendar/static/media/good.c497b08f48856815ccd5.m4a",
     "index.html": "/UppInt-Advent-Calendar/index.html",
-    "main.d8ea59d6.css.map": "/UppInt-Advent-Calendar/static/css/main.d8ea59d6.css.map",
-    "main.194db2a9.js.map": "/UppInt-Advent-Calendar/static/js/main.194db2a9.js.map"
+    "main.74696a79.css.map": "/UppInt-Advent-Calendar/static/css/main.74696a79.css.map",
+    "main.2bba74bb.js.map": "/UppInt-Advent-Calendar/static/js/main.2bba74bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8ea59d6.css",
-    "static/js/main.194db2a9.js"
+    "static/css/main.74696a79.css",
+    "static/js/main.2bba74bb.js"
   ]
 }
