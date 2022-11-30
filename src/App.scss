@@ -18,10 +18,15 @@ body {
     user-select: none;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     background-image: url(./Images/hd-wallpaper-g96f4c3791_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100%;
 }
 
 .calendar {
