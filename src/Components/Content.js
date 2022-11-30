@@ -69,7 +69,7 @@ const Content = ({ content, setDisplay }) => {
                         <span className={`content_question_result${result === "CORRECT" ? "-correct" : (result === "INCORRECT" ? "-incorrect" : "")}`}><strong>{result}</strong></span>
                     </div>
                 </div>
-                <div className={`content_question_note${result !== "NONE" ? "-visible" : ""}`}>{content.data.question.note}</div>
+                {(content.data.question.note !== "") && <div className={`content_question_note${result !== "NONE" ? "-visible" : ""}`}>{content.data.question.note}</div>}
             </div>
         </div>
     )

@@ -53,9 +53,7 @@ const dayData = [
                 answer: "C",
                 note: "The past perfect should be used here to highlight that she forgot to put on her hat before she stepped outside."
             }
-        }
-        
-        
+        } 
     },
     {
         date: 23,
@@ -83,8 +81,21 @@ const dayData = [
     {
         date: 2,
         data: {
-            phoneme: {symbol: "ʊ"}
-        }
+            phoneme: {  
+                symbol: "ʊ",
+                audio: "PhgOOd.m4a",
+                examples: [["good", "/ɡʊd/", "good.m4a"], ["should", "/ʃʊd/", "should.m4a"], ["insurance", "/ɪnʃʊɹəns/", "insurance.m4a"]],
+                note: "This is a vowel sound. It is made by lifting your tongue high in the mouth and towards the back."
+            },
+            question: {
+                stem: "Paul is really tired these days. I think he needs to recharge his ________.",
+                A: "mobile",
+                B: "batteries",
+                C: "laptop",
+                answer: "B",
+                note: ""
+            }
+        } 
     },
     {
         date: 11,
@@ -97,8 +108,21 @@ const dayData = [
     {
         date: 3,
         data: {
-            phoneme: {symbol: "ŋ"}
-        }
+            phoneme: {  
+                symbol: "ŋ",
+                audio: "PhNG.m4a",
+                examples: [["long", "/lɒŋ/", "long.m4a"], ["kingdom", "/kɪŋdəm/", "kingdom.m4a"], ["linguistic", "/lɪŋɡwɪstɪk/", "linguistic.m4a"]],
+                note: "This is a voiced nasal consonant. It is often written as 'ng'."
+            },
+            question: {
+                stem: "I wish I ________ more when I was younger",
+                A: "studied",
+                B: "had studied",
+                C: "had study",
+                answer: "B",
+                note: "The past perfect is used with 'wish' to express a regret about the past."
+            }
+        } 
     },
     {
         date: 6,

@@ -5,7 +5,8 @@ import checkDate from '../DataAndFunctions/CheckDay';
 const Window = ({ data, setContent, setDisplay }) => {
 
     const [open, setOpen] = useState(checkDate(data.date))
-    const today = new Date("2022-12-01")
+    const today = new Date()
+    // const today = new Date("2022-12-06")
 
     const openWindow = () => {
         
