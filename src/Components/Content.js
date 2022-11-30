@@ -65,8 +65,8 @@ const Content = ({ content, setDisplay }) => {
                         <Answer name={"C"}  text={content.data.question.C} answer={content.data.question.answer} result={result} selectedAnswer={selectedAnswer} setSelectedAnswer={setSelectedAnswer} />
                     </div>
                     <div className='content_question_control'>
-                        <span className={`content_question_result${result === "CORRECT" ? "-correct" : (result === "INCORRECT" ? "-incorrect" : "")}`}><strong>{result}</strong></span>
                         <div className={`content_question_button${(selectedAnswer !== "") && (result === "NONE") ? "-active" : ""}`} onClick={checkAnswer}>Check Answer</div>
+                        <span className={`content_question_result${result === "CORRECT" ? "-correct" : (result === "INCORRECT" ? "-incorrect" : "")}`}><strong>{result}</strong></span>
                     </div>
                 </div>
                 <div className={`content_question_note${result !== "NONE" ? "-visible" : ""}`}>{content.data.question.note}</div>
