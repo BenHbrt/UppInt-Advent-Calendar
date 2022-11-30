@@ -66,7 +66,7 @@ const Content = ({ content, setDisplay }) => {
                     </div>
                     <div className='content_question_control'>
                         <span className={`content_question_result${result === "CORRECT" ? "-correct" : (result === "INCORRECT" ? "-incorrect" : "")}`}><strong>{result}</strong></span>
-                        <span className={`content_question_button${(selectedAnswer !== "") && (result === "NONE") ? "-active" : ""}`} onClick={checkAnswer}>Check Answer</span>
+                        <div className={`content_question_button${(selectedAnswer !== "") && (result === "NONE") ? "-active" : ""}`} onClick={checkAnswer}>Check Answer</div>
                     </div>
                 </div>
                 <div className={`content_question_note${result !== "NONE" ? "-visible" : ""}`}>{content.data.question.note}</div>
