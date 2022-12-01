@@ -10,4 +10,4 @@ I designed this calendar for a group of Slavic spakers, and so selected phonemic
 
 ## The tech side of things
 
-I decided to write this project using the React library, as it was clear to me that it lends itself to the use of components for the different days, as thy all needed to behave in the same way. I chose to use SCSS for the styling, as it allows for nested syntax, thus making it much easier.
+I decided to write this project using the React library, as it was clear to me that it lends itself to the use of components for the different days, as thy all needed to behave in the same way. I chose to use SCSS for the styling, as it allows for nested syntax, thus making it much easier to write.
