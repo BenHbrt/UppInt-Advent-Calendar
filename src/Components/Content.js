@@ -18,7 +18,7 @@ const Content = ({ content, setDisplay }) => {
 
     const checkAnswer = () => {
         if ((result === "NONE") && (selectedAnswer !== "")) {
-            if (selectedAnswer === content.data.question.answer) {
+            if (content.data.question.answer.includes(selectedAnswer)) {
                 setResult("CORRECT")
             } else {
                 setResult("INCORRECT")

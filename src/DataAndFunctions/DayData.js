@@ -50,8 +50,8 @@ const dayData = [
                 A: "forgot",
                 B: "forgotten",
                 C: "had forgotten",
-                answer: "C",
-                note: "The past perfect should be used here to highlight that she forgot to put on her hat before she stepped outside."
+                answer: "AC",
+                note: "Both the past simple and past perfect can be used here. The difference is the past perfect emphasises the fact that she forgot to put on her hat before she stepped outside."
             }
         } 
     },
