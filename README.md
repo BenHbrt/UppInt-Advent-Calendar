@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 I wrote this project as as part of my GitHub portfolio. As I have a background in English language teaching, I thought that it would be a good idea to create an educaional Advent calendar, which would provide the user with a new phonemic symbol and question each day.
 
-I designed this calendar for a group of Slavic spakers, and so selected phonemic symbols which represented sounds they often find difficult to produce or which have symbols which may be difficult to connect to the sounds which they represent.
+I designed this calendar for a hypothetical group of Slavic language speakers, and so selected phonemic symbols which represented sounds they often find difficult to produce or which have symbols which may be difficult to connect to the sounds which they represent.
 
 ## The tech side of things
 
