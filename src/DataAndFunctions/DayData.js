@@ -70,7 +70,20 @@ const dayData = [
     {
         date: 4,
         data: {
-            phoneme: {symbol: "ɑɪ"}
+            phoneme: {  
+                symbol: "ɑɪ",
+                audio: "PhAI.m4a",
+                examples: [["size", "/saɪz/", "size.m4a"], ["crime", "/kraɪm/", "crime.m4a"], ["otherwise", "/ʌðəwaɪz/", "otherwise.m4a"]],
+                note: "This is a dipthong, which means it is a sound made by moving from one vowel sound to another, in this case from /ɑ/ to /ɪ/."
+            },
+            question: {
+                stem: "I________ two cups of coffee today.",
+                A: "drank",
+                B: "'ve been drinking",
+                C: "'ve drunk",
+                answer: "C",
+                note: "We use the present perfect simple here because we are focusing on the number of times this action occured. If we want to focus on the duration of the action, we should use the present perfect continuous if possible."
+            }
         }
     },
     {
