@@ -1,40 +1,174 @@
 const dayData = [
     {
         date: 14,
-        text: "TEXT14"
+        data: {
+            phoneme: {  
+                symbol: "NONE",
+                audio: "NONE.m4a",
+                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
+                note: "NONE"
+            },
+            question: {
+                stem: "NONE",
+                A: "NONE",
+                B: "NONE",
+                C: "NONE",
+                answer: "NONE",
+                note: "NONE"
+            }
+        } 
     },
     {
         date: 9,
-        text: "TEXT9"
+        data: {
+            phoneme: {  
+                symbol: "NONE",
+                audio: "NONE.m4a",
+                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
+                note: "NONE"
+            },
+            question: {
+                stem: "NONE",
+                A: "NONE",
+                B: "NONE",
+                C: "NONE",
+                answer: "NONE",
+                note: "NONE"
+            }
+        }
     },
     {
         date: 24,
-        text: "You've almost made it. Have a merry Christmas tomorrow!"
+        data: {
+            phoneme: {  
+                symbol: "NONE",
+                audio: "NONE.m4a",
+                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
+                note: "NONE"
+            },
+            question: {
+                stem: "NONE",
+                A: "NONE",
+                B: "NONE",
+                C: "NONE",
+                answer: "NONE",
+                note: "NONE"
+            }
+        }
     },   
     {
         date: 7,
-        text: "TEXT7"
+        data: {
+            phoneme: {  
+                symbol: "NONE",
+                audio: "NONE.m4a",
+                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
+                note: "NONE"
+            },
+            question: {
+                stem: "NONE",
+                A: "NONE",
+                B: "NONE",
+                C: "NONE",
+                answer: "NONE",
+                note: "NONE"
+            }
+        }
     },   
     {
         date: 13,
-        text: "TEXT13"
+        data: {
+            phoneme: {  
+                symbol: "NONE",
+                audio: "NONE.m4a",
+                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
+                note: "NONE"
+            },
+            question: {
+                stem: "NONE",
+                A: "NONE",
+                B: "NONE",
+                C: "NONE",
+                answer: "NONE",
+                note: "NONE"
+            }
+        }
     },
     {
         date: 21,
-        text: "TEXT21"
+        data: {
+            phoneme: {  
+                symbol: "NONE",
+                audio: "NONE.m4a",
+                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
+                note: "NONE"
+            },
+            question: {
+                stem: "NONE",
+                A: "NONE",
+                B: "NONE",
+                C: "NONE",
+                answer: "NONE",
+                note: "NONE"
+            }
+        }
     },
     {
         date: 18,
-        text: "TEXT18"
+        data: {
+            phoneme: {  
+                symbol: "NONE",
+                audio: "NONE.m4a",
+                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
+                note: "NONE"
+            },
+            question: {
+                stem: "NONE",
+                A: "NONE",
+                B: "NONE",
+                C: "NONE",
+                answer: "NONE",
+                note: "NONE"
+            }
+        }
     },
     {
         date: 20,
-        text: "TEXT20"
+        data: {
+            phoneme: {  
+                symbol: "NONE",
+                audio: "NONE.m4a",
+                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
+                note: "NONE"
+            },
+            question: {
+                stem: "NONE",
+                A: "NONE",
+                B: "NONE",
+                C: "NONE",
+                answer: "NONE",
+                note: "NONE"
+            }
+        }
     },
     {
         date: 15,
-        text: "TEXT15",
-        image: "mistletoe2.png"
+        data: {
+            phoneme: {  
+                symbol: "NONE",
+                audio: "NONE.m4a",
+                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
+                note: "NONE"
+            },
+            question: {
+                stem: "NONE",
+                A: "NONE",
+                B: "NONE",
+                C: "NONE",
+                answer: "NONE",
+                note: "NONE"
+            }
+        }
     },
     {
         date: 1,
@@ -57,15 +191,60 @@ const dayData = [
     },
     {
         date: 23,
-        text: "TEXT23"
+        data: {
+            phoneme: {  
+                symbol: "NONE",
+                audio: "NONE.m4a",
+                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
+                note: "NONE"
+            },
+            question: {
+                stem: "NONE",
+                A: "NONE",
+                B: "NONE",
+                C: "NONE",
+                answer: "NONE",
+                note: "NONE"
+            }
+        }
     },
     {
         date: 16,
-        text: "TEXT16"
+        data: {
+            phoneme: {  
+                symbol: "NONE",
+                audio: "NONE.m4a",
+                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
+                note: "NONE"
+            },
+            question: {
+                stem: "NONE",
+                A: "NONE",
+                B: "NONE",
+                C: "NONE",
+                answer: "NONE",
+                note: "NONE"
+            }
+        }
     },
     {
         date: 22,
-        text: "TEXT22"
+        data: {
+            phoneme: {  
+                symbol: "NONE",
+                audio: "NONE.m4a",
+                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
+                note: "NONE"
+            },
+            question: {
+                stem: "NONE",
+                A: "NONE",
+                B: "NONE",
+                C: "NONE",
+                answer: "NONE",
+                note: "NONE"
+            }
+        }
     },
     {
         date: 4,
@@ -89,7 +268,22 @@ const dayData = [
     {
         date: 8,
         text: "TEXT8",
-        image: "gingerbread-man.png"
+        data: {
+            phoneme: {  
+                symbol: "NONE",
+                audio: "NONE.m4a",
+                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
+                note: "NONE"
+            },
+            question: {
+                stem: "NONE",
+                A: "NONE",
+                B: "NONE",
+                C: "NONE",
+                answer: "NONE",
+                note: "NONE"
+            }
+        }
     },
     {
         date: 2,
@@ -112,11 +306,41 @@ const dayData = [
     },
     {
         date: 11,
-        text: "TEXT11"
+        data: {
+            phoneme: {  
+                symbol: "NONE",
+                audio: "NONE.m4a",
+                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
+                note: "NONE"
+            },
+            question: {
+                stem: "NONE",
+                A: "NONE",
+                B: "NONE",
+                C: "NONE",
+                answer: "NONE",
+                note: "NONE"
+            }
+        }
     },
     {
         date: 17,
-        text: "TEXT17"
+        data: {
+            phoneme: {  
+                symbol: "NONE",
+                audio: "NONE.m4a",
+                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
+                note: "NONE"
+            },
+            question: {
+                stem: "NONE",
+                A: "NONE",
+                B: "NONE",
+                C: "NONE",
+                answer: "NONE",
+                note: "NONE"
+            }
+        }
     },
     {
         date: 3,
@@ -140,27 +364,97 @@ const dayData = [
     {
         date: 6,
         data: {
-            phoneme: {symbol: "ʤ"}
+            phoneme: {  
+                symbol: "NONE",
+                audio: "NONE.m4a",
+                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
+                note: "NONE"
+            },
+            question: {
+                stem: "NONE",
+                A: "NONE",
+                B: "NONE",
+                C: "NONE",
+                answer: "NONE",
+                note: "NONE"
+            }
         }
     },
     {
         date: 10,
-        text: "TEXT10",
-        image: "bauble.png"
+        data: {
+            phoneme: {  
+                symbol: "NONE",
+                audio: "NONE.m4a",
+                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
+                note: "NONE"
+            },
+            question: {
+                stem: "NONE",
+                A: "NONE",
+                B: "NONE",
+                C: "NONE",
+                answer: "NONE",
+                note: "NONE"
+            }
+        }
     },
     {
         date: 12,
-        text: "TEXT12"
+        data: {
+            phoneme: {  
+                symbol: "NONE",
+                audio: "NONE.m4a",
+                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
+                note: "NONE"
+            },
+            question: {
+                stem: "NONE",
+                A: "NONE",
+                B: "NONE",
+                C: "NONE",
+                answer: "NONE",
+                note: "NONE"
+            }
+        }
     },
     {
         date: 5,
         data: {
-            phoneme: {symbol: "ə"}
+            phoneme: {  
+                symbol: "NONE",
+                audio: "NONE.m4a",
+                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
+                note: "NONE"
+            },
+            question: {
+                stem: "NONE",
+                A: "NONE",
+                B: "NONE",
+                C: "NONE",
+                answer: "NONE",
+                note: "NONE"
+            }
         }
     },
     {
         date: 19,
-        text: "TEXT19"
+        data: {
+            phoneme: {  
+                symbol: "NONE",
+                audio: "NONE.m4a",
+                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
+                note: "NONE"
+            },
+            question: {
+                stem: "NONE",
+                A: "NONE",
+                B: "NONE",
+                C: "NONE",
+                answer: "NONE",
+                note: "NONE"
+            }
+        }
     },
 ]
 export default dayData;
