@@ -422,18 +422,18 @@ const dayData = [
         date: 5,
         data: {
             phoneme: {  
-                symbol: "NONE",
-                audio: "NONE.m4a",
-                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
-                note: "NONE"
+                symbol: "ə",
+                audio: "PhSCHWA.m4a",
+                examples: [["power", "/paʊə/", "power.m4a"], ["person", "/pɜːsən/", "person.m4a"], ["teacher", "/tiːʧə/", "teacher.m4a"]],
+                note: "This sound is associated with unstressed syllables and some function words."
             },
             question: {
-                stem: "NONE",
-                A: "NONE",
-                B: "NONE",
-                C: "NONE",
-                answer: "NONE",
-                note: "NONE"
+                stem: "CCTV cameras are often used to ________ public places.",
+                A: "monitor",
+                B: "control",
+                C: "look over",
+                answer: "A",
+                note: ""
             }
         }
     },
