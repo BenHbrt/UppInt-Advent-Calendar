@@ -77,7 +77,7 @@ const dayData = [
                 note: "This is a dipthong, which means it is a sound made by moving from one vowel sound to another, in this case from /ɑ/ to /ɪ/."
             },
             question: {
-                stem: "I________ two cups of coffee today.",
+                stem: "I________ two cups of coffee so far today.",
                 A: "drank",
                 B: "'ve been drinking",
                 C: "'ve drunk",
