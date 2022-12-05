@@ -365,18 +365,18 @@ const dayData = [
         date: 6,
         data: {
             phoneme: {  
-                symbol: "NONE",
-                audio: "NONE.m4a",
-                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
-                note: "NONE"
+                symbol: "ʤ",
+                audio: "PhDZ.m4a",
+                examples: [["job", "/ʤɒb/", "job.m4a"], ["judge", "/ʤʌʤ/", "judge.m4a"], ["generation", "/ʤenəreɪʃən/", "generation.m4a"]],
+                note: "This is a voiced consonant."
             },
             question: {
-                stem: "NONE",
-                A: "NONE",
-                B: "NONE",
-                C: "NONE",
-                answer: "NONE",
-                note: "NONE"
+                stem: "I ________ my homework this evening.",
+                A: "will do definitely",
+                B: "will definitely do",
+                C: "do will definitely",
+                answer: "B",
+                note: "We normally place adverbs describing probability between 'will' and the main verb."
             }
         }
     },
