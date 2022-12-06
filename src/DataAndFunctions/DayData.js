@@ -60,17 +60,17 @@ const dayData = [
         date: 7,
         data: {
             phoneme: {  
-                symbol: "NONE",
-                audio: "NONE.m4a",
-                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
-                note: "NONE"
+                symbol: "eɪ",
+                audio: "PhEI.m4a",
+                examples: [["take", "/teɪk/", "take.m4a"], ["nature", "/neɪʧə/", "nature.m4a"], ["information", "/ɪnfəmeɪʃən/", "information.m4a"]],
+                note: "This is a dipthong, which means it is a sound made by moving from one vowel sound to another, in this case from /e/ to /ɪ/."
             },
             question: {
-                stem: "NONE",
-                A: "NONE",
-                B: "NONE",
-                C: "NONE",
-                answer: "NONE",
+                stem: "I'm in favour ________ this proposal.",
+                A: "of",
+                B: "for",
+                C: "to",
+                answer: "A",
                 note: "NONE"
             }
         }
