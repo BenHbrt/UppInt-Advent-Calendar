@@ -71,7 +71,7 @@ const dayData = [
                 B: "for",
                 C: "to",
                 answer: "A",
-                note: "NONE"
+                note: ""
             }
         }
     },   
@@ -267,21 +267,21 @@ const dayData = [
     },
     {
         date: 8,
-        text: "TEXT8",
+        text: "ʌ",
         data: {
             phoneme: {  
-                symbol: "NONE",
-                audio: "NONE.m4a",
-                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
-                note: "NONE"
+                symbol: "ʌ",
+                audio: "PhUp.m4a",
+                examples: [["up", "/ʌp/", "up.m4a"], ["month", "/mʌnθ", "month.m4a"], ["production", "/prədʌkʃən/", "production.m4a"]],
+                note: "This is a short vowel sound."
             },
             question: {
-                stem: "NONE",
-                A: "NONE",
-                B: "NONE",
-                C: "NONE",
-                answer: "NONE",
-                note: "NONE"
+                stem: "It's ________ freezing outside!",
+                A: "very",
+                B: "fairly",
+                C: "absolutely",
+                answer: "C",
+                note: "'Absolutely' can be used as an intensifier with ungradable adjectives. 'Very' and 'fairly' are used with gradable adjectives, such as 'cold'."
             }
         }
     },
