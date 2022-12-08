@@ -22,18 +22,18 @@ const dayData = [
         date: 9,
         data: {
             phoneme: {  
-                symbol: "NONE",
-                audio: "NONE.m4a",
-                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
-                note: "NONE"
+                symbol: "θ",
+                audio: "PhTHumb.m4a",
+                examples: [["month", "/mʌnθ/", "month.m4a"], ["think", "/θɪŋk/", "think.m4a"], ["cathedral", "/kəθiːdrəl/", "cathedral.m4a"]],
+                note: "This is an unvoiced consonant."
             },
             question: {
-                stem: "NONE",
-                A: "NONE",
-                B: "NONE",
-                C: "NONE",
-                answer: "NONE",
-                note: "NONE"
+                stem: "I'll go on holiday next year if I ________ enough money.",
+                A: "will have",
+                B: "had",
+                C: "have",
+                answer: "C",
+                note: "We don't use 'will' in the 'if' clause of first conditional sentences when it has future meaning."
             }
         }
     },
