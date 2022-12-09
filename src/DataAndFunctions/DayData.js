@@ -384,18 +384,18 @@ const dayData = [
         date: 10,
         data: {
             phoneme: {  
-                symbol: "NONE",
-                audio: "NONE.m4a",
-                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
-                note: "NONE"
+                symbol: "ɔɪ",
+                audio: "PhOI.m4a",
+                examples: [["boy", "/bɔɪ/", "boy.m4a"], ["avoid", "/əvɔɪd/", "avoid.m4a"], ["unemployment", "/ʌnɪmplɔɪmənt/", "unemployment.m4a"]],
+                note: "This is a dipthong, which means it is a sound made by moving from one vowel sound to another, in this case from /ɔ/ to /ɪ/."
             },
             question: {
-                stem: "NONE",
-                A: "NONE",
-                B: "NONE",
-                C: "NONE",
-                answer: "NONE",
-                note: "NONE"
+                stem: "He doesn't often hang around with other people. He prefers to keep ________.",
+                A: "himself",
+                B: "himself to himself",
+                C: "himself alone",
+                answer: "B",
+                note: ""
             }
         }
     },
