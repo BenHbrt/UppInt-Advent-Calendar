@@ -308,18 +308,18 @@ const dayData = [
         date: 11,
         data: {
             phoneme: {  
-                symbol: "NONE",
-                audio: "NONE.m4a",
-                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
-                note: "NONE"
+                symbol: "ɜ:",
+                audio: "PhbIrd.m4a",
+                examples: [["bird", "/bɜːd/", "bird.m4a"], ["service", "/sɜːvɪs/", "service.m4a"], ["research", "/rɪsɜːʧ/", "research.m4a"]],
+                note: "This is a long vowel sound."
             },
             question: {
-                stem: "NONE",
-                A: "NONE",
-                B: "NONE",
-                C: "NONE",
-                answer: "NONE",
-                note: "NONE"
+                stem: "I'm disappointed ________ you.",
+                A: "on",
+                B: "in",
+                C: "with",
+                answer: "BC",
+                note: "'Disappointed in' usually conveys a greater sense of betrayal than 'disappointed with' when used with a person."
             }
         }
     },
