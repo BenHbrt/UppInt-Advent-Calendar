@@ -403,18 +403,18 @@ const dayData = [
         date: 12,
         data: {
             phoneme: {  
-                symbol: "NONE",
-                audio: "NONE.m4a",
-                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
-                note: "NONE"
+                symbol: "ð",
+                audio: "PhmoTHer.m4a",
+                examples: [["mother", "/mʌðə/", "mother.m4a"], ["smooth", "/smuːð/", "smooth.m4a"], ["therefore", "/ðeəfɔː/", "therefore.m4a"]],
+                note: "This is a voiced consonant."
             },
             question: {
-                stem: "NONE",
-                A: "NONE",
-                B: "NONE",
-                C: "NONE",
-                answer: "NONE",
-                note: "NONE"
+                stem: "I wouldn't do that if I ________ you.",
+                A: "was",
+                B: "would be",
+                C: "were",
+                answer: "AC",
+                note: "Both 'was' and 'were' are possible here. 'Was' should not be used in formal English."
             }
         }
     },
