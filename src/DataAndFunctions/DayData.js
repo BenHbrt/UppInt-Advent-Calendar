@@ -9,12 +9,12 @@ const dayData = [
                 note: "NONE"
             },
             question: {
-                stem: "NONE",
-                A: "NONE",
-                B: "NONE",
-                C: "NONE",
-                answer: "NONE",
-                note: "NONE"
+                stem: "If I ________ him, I would've told him.",
+                A: "saw",
+                B: "had seen",
+                C: "have seen",
+                answer: "B",
+                note: "Third conditionals such as this are used to talk about past hypothetical actions and their consequences."
             }
         } 
     },
@@ -47,12 +47,12 @@ const dayData = [
                 note: "NONE"
             },
             question: {
-                stem: "NONE",
-                A: "NONE",
-                B: "NONE",
-                C: "NONE",
-                answer: "NONE",
-                note: "NONE"
+                stem: "I wish my teacher would give me ________.",
+                A: "more homeworks",
+                B: "more homework",
+                C: "many more homework",
+                answer: "B",
+                note: "'Homework' is uncountable."
             }
         }
     },   
@@ -104,12 +104,12 @@ const dayData = [
                 note: "NONE"
             },
             question: {
-                stem: "NONE",
-                A: "NONE",
-                B: "NONE",
-                C: "NONE",
-                answer: "NONE",
-                note: "NONE"
+                stem: "I'm sick and ________ of the noise!",
+                A: "angry",
+                B: "tired",
+                C: "ill",
+                answer: "B",
+                note: ""
             }
         }
     },
@@ -123,12 +123,12 @@ const dayData = [
                 note: "NONE"
             },
             question: {
-                stem: "NONE",
-                A: "NONE",
-                B: "NONE",
-                C: "NONE",
-                answer: "NONE",
-                note: "NONE"
+                stem: "I should________ my homework yesterday.",
+                A: "'ve done",
+                B: "'ve do",
+                C: "'ve did",
+                answer: "A",
+                note: "We can use 'should + have + past participle' when discussing regrets about the past."
             }
         }
     },
@@ -142,12 +142,12 @@ const dayData = [
                 note: "NONE"
             },
             question: {
-                stem: "NONE",
-                A: "NONE",
-                B: "NONE",
-                C: "NONE",
-                answer: "NONE",
-                note: "NONE"
+                stem: "The manager, ________ had recently been promoted, told the staff the news.",
+                A: "that",
+                B: "whom",
+                C: "who",
+                answer: "C",
+                note: "We can't use 'that' in non-defining relative clauses."
             }
         }
     },
@@ -161,12 +161,12 @@ const dayData = [
                 note: "NONE"
             },
             question: {
-                stem: "NONE",
-                A: "NONE",
-                B: "NONE",
-                C: "NONE",
-                answer: "NONE",
-                note: "NONE"
+                stem: "My boss decided to ________ my salary",
+                A: "raise",
+                B: "rise",
+                C: "move up",
+                answer: "A",
+                note: "'Raise' and 'rise' have a similar meaning. However, 'raise' takes and object and 'rise' does not."
             }
         }
     },
@@ -199,12 +199,12 @@ const dayData = [
                 note: "NONE"
             },
             question: {
-                stem: "NONE",
-                A: "NONE",
-                B: "NONE",
-                C: "NONE",
-                answer: "NONE",
-                note: "NONE"
+                stem: "I arrived at the wrong location. I think I ________ his instructions.",
+                A: "misunderstood",
+                B: "misunderstand",
+                C: "not understand",
+                answer: "A",
+                note: ""
             }
         }
     },
@@ -218,12 +218,12 @@ const dayData = [
                 note: "NONE"
             },
             question: {
-                stem: "NONE",
-                A: "NONE",
-                B: "NONE",
-                C: "NONE",
-                answer: "NONE",
-                note: "NONE"
+                stem: "I'd rather they ________ us tomorrow.",
+                A: "will visit",
+                B: "visited",
+                C: "visiting",
+                answer: "B",
+                note: "'Would rather + past' is used to say what we would prefer someone else to do."
             }
         }
     },
@@ -237,12 +237,12 @@ const dayData = [
                 note: "NONE"
             },
             question: {
-                stem: "NONE",
-                A: "NONE",
-                B: "NONE",
-                C: "NONE",
-                answer: "NONE",
-                note: "NONE"
+                stem: "We can't afford ________ a new sofa.",
+                A: "buying",
+                B: "buy",
+                C: "to buy",
+                answer: "C",
+                note: "'Afford' is followed by either a noun or an infinitie with 'to'."
             }
         }
     },
@@ -333,12 +333,12 @@ const dayData = [
                 note: "NONE"
             },
             question: {
-                stem: "NONE",
-                A: "NONE",
-                B: "NONE",
-                C: "NONE",
-                answer: "NONE",
-                note: "NONE"
+                stem: "She went outside ________ the heavy rain.",
+                A: "however",
+                B: "even though",
+                C: "despite",
+                answer: "C",
+                note: "'Despite' can be used to add contrast using a noun phrase."
             }
         }
     },
@@ -447,12 +447,12 @@ const dayData = [
                 note: "NONE"
             },
             question: {
-                stem: "NONE",
-                A: "NONE",
-                B: "NONE",
-                C: "NONE",
-                answer: "NONE",
-                note: "NONE"
+                stem: "He is very rude and ________!",
+                A: "impolite",
+                B: "unpolite",
+                C: "depolite",
+                answer: "A",
+                note: ""
             }
         }
     },
