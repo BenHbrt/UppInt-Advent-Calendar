@@ -3,10 +3,10 @@ const dayData = [
         date: 14,
         data: {
             phoneme: {  
-                symbol: "NONE",
-                audio: "NONE.m4a",
-                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
-                note: "NONE"
+                symbol: "h",
+                audio: "PhH.m4a",
+                examples: [["help", "/help/", "help.m4a"], ["hook", "/hʊk/", "hook.m4a"], ["abhor", "/əbhɔː/", "abhor.m4a"]],
+                note: "This is a voiceless consonant."
             },
             question: {
                 stem: "If I ________ him, I would've told him.",
@@ -25,7 +25,7 @@ const dayData = [
                 symbol: "θ",
                 audio: "PhTHumb.m4a",
                 examples: [["month", "/mʌnθ/", "month.m4a"], ["think", "/θɪŋk/", "think.m4a"], ["cathedral", "/kəθiːdrəl/", "cathedral.m4a"]],
-                note: "This is an unvoiced consonant."
+                note: "This is a voiceless consonant."
             },
             question: {
                 stem: "I'll go on holiday next year if I ________ enough money.",
@@ -41,10 +41,10 @@ const dayData = [
         date: 24,
         data: {
             phoneme: {  
-                symbol: "NONE",
-                audio: "NONE.m4a",
-                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
-                note: "NONE"
+                symbol: "ɔ:",
+                audio: "PhdOOR.m4a",
+                examples: [["door", "/dɔː/", "door.m4a"], ["cause", "/kɔːz/", "cause.m4a"], ["awful", "/ɔːfəl/", "awful.m4a"]],
+                note: "This is a long vowel sound."
             },
             question: {
                 stem: "I wish my teacher would give me ________.",
@@ -98,10 +98,10 @@ const dayData = [
         date: 21,
         data: {
             phoneme: {  
-                symbol: "NONE",
-                audio: "NONE.m4a",
-                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
-                note: "NONE"
+                symbol: "ʧ",
+                audio: "PhCH.m4a",
+                examples: [["chair", "/ʧeə/", "chair.m4a"], ["nature", "/neɪʧə/", "nature.m4a"], ["research", "/rɪsɜːʧ/", "research.m4a"]],
+                note: "This is a voiceless consonant."
             },
             question: {
                 stem: "I'm sick and ________ of the noise!",
@@ -117,10 +117,10 @@ const dayData = [
         date: 18,
         data: {
             phoneme: {  
-                symbol: "NONE",
-                audio: "NONE.m4a",
-                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
-                note: "NONE"
+                symbol: "ʃ",
+                audio: "PhSH.m4a",
+                examples: [["cash", "/kæʃ/", "cash.m4a"], ["information", "/ɪnfəmeɪʃən/", "information.m4a"], ["commission", "/kəmɪʃən/", "comission.m4a"]],
+                note: "This is a voiceless consonant."
             },
             question: {
                 stem: "I should________ my homework yesterday.",
@@ -136,10 +136,10 @@ const dayData = [
         date: 20,
         data: {
             phoneme: {  
-                symbol: "NONE",
-                audio: "NONE.m4a",
-                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
-                note: "NONE"
+                symbol: "ɒ",
+                audio: "PhdOg.m4a",
+                examples: [["dog", "/dɒɡ/", "dog.m4a"], ["foreign", "/fɒrən/", "foreign.m4a"], ["knowledge", "/nɒlɪdʒ/", "nɒlɪdʒ.m4a"]],
+                note: "This is a short vowel sound."
             },
             question: {
                 stem: "The manager, ________ had recently been promoted, told the staff the news.",
@@ -155,10 +155,10 @@ const dayData = [
         date: 15,
         data: {
             phoneme: {  
-                symbol: "NONE",
-                audio: "NONE.m4a",
-                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
-                note: "NONE"
+                symbol: "ʒ",
+                audio: "PhZH.m4a",
+                examples: [["vision", "/vɪʒən/", "vision.m4a"], ["regime", "/reɪʒiːm/", "regime.m4a"], ["leisure", "/leʒə/", "leisure.m4a"]],
+                note: "This is a voiced consonant."
             },
             question: {
                 stem: "My boss decided to ________ my salary",
@@ -193,10 +193,10 @@ const dayData = [
         date: 23,
         data: {
             phoneme: {  
-                symbol: "NONE",
-                audio: "NONE.m4a",
-                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
-                note: "NONE"
+                symbol: "əʊ",
+                audio: "PhshOW.m4a",
+                examples: [["show", "/ʃəʊ/", "show.m4a"], ["progress", "/prəʊɡres/", "progress.m4a"], ["although", "/ɔːlðəʊ/", "although.m4a"]],
+                note: "This is a dipthong, which means it is a sound made by moving from one vowel sound to another, in this case from /ə/ to /ʊ/."
             },
             question: {
                 stem: "I arrived at the wrong location. I think I ________ his instructions.",
@@ -212,10 +212,10 @@ const dayData = [
         date: 16,
         data: {
             phoneme: {  
-                symbol: "NONE",
-                audio: "NONE.m4a",
-                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
-                note: "NONE"
+                symbol: "ʊə",
+                audio: "PhcURe.m4a",
+                examples: [["cure", "/kjʊə/", "cure.m4a"], ["curious", "/kjʊəriəs/", "curious.m4a"], ["tournament", "/tʊənəmənt/", "tournament.m4a"]],
+                note: "This is a dipthong, which means it is a sound made by moving from one vowel sound to another, in this case from /ʊ/ to /ə/."
             },
             question: {
                 stem: "I'd rather they ________ us tomorrow.",
@@ -231,10 +231,10 @@ const dayData = [
         date: 22,
         data: {
             phoneme: {  
-                symbol: "NONE",
-                audio: "NONE.m4a",
-                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
-                note: "NONE"
+                symbol: "u:",
+                audio: "PhglUE.m4a",
+                examples: [["blue", "/bluː/", "blue.m4a"], ["broom", "/bruːm/", "broom.m4a"], ["mushroom", "/mʌʃruːm/", "mushroom.m4a"]],
+                note: "This is a long vowel sound."
             },
             question: {
                 stem: "We can't afford ________ a new sofa.",
@@ -327,10 +327,10 @@ const dayData = [
         date: 17,
         data: {
             phoneme: {  
-                symbol: "NONE",
-                audio: "NONE.m4a",
-                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
-                note: "NONE"
+                symbol: "æ",
+                audio: "PhcAt.m4a",
+                examples: [["cat", "/kæt/", "cat.m4a"], ["language", "/læŋɡwɪdʒ/", "language.m4a"], ["financial", "/faɪnænʃəl/", "financial.m4a"]],
+                note: "This is a short vowel sound."
             },
             question: {
                 stem: "She went outside ________ the heavy rain.",
@@ -441,10 +441,10 @@ const dayData = [
         date: 19,
         data: {
             phoneme: {  
-                symbol: "NONE",
-                audio: "NONE.m4a",
-                examples: [["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"], ["NONE", "/NONE/", "NONE.m4a"]],
-                note: "NONE"
+                symbol: "ɪə",
+                audio: "PhEAR.m4a",
+                examples: [["ear", "/ɪə/", "ear.m4a"], ["severe", "/sɪvɪə/", "severe.m4a"], ["superior", "/suːpɪəriə/", "superior.m4a"]],
+                note: "This is a dipthong, which means it is a sound made by moving from one vowel sound to another, in this case from /ɪ/ to /ə/."
             },
             question: {
                 stem: "He is very rude and ________!",
