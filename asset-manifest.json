@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/UppInt-Advent-Calendar/static/css/main.74696a79.css",
-    "main.js": "/UppInt-Advent-Calendar/static/js/main.45bc8725.js",
+    "main.js": "/UppInt-Advent-Calendar/static/js/main.3bc76d2b.js",
     "static/media/hd-wallpaper-g96f4c3791_1280.jpg": "/UppInt-Advent-Calendar/static/media/hd-wallpaper-g96f4c3791_1280.662500d59dac19930e59.jpg",
     "static/media/holly-g5eb13151e_640.png": "/UppInt-Advent-Calendar/static/media/holly-g5eb13151e_640.d3f9762e74736bcf72a0.png",
     "static/media/insurance.m4a": "/UppInt-Advent-Calendar/static/media/insurance.f80f6c222bf7f03b395c.m4a",
@@ -16,6 +16,7 @@
     "static/media/out.m4a": "/UppInt-Advent-Calendar/static/media/out.8762f5d0dd7d63d77da4.m4a",
     "static/media/amount.m4a": "/UppInt-Advent-Calendar/static/media/amount.dd96309e4597c5bd3604.m4a",
     "static/media/think.m4a": "/UppInt-Advent-Calendar/static/media/think.0132b43a7f41a0cec25d.m4a",
+    "static/media/vision.m4a": "/UppInt-Advent-Calendar/static/media/vision.56ad78e97b401364cd5a.m4a",
     "static/media/avoid.m4a": "/UppInt-Advent-Calendar/static/media/avoid.0d0de72fdc9410f3bb90.m4a",
     "static/media/PhbIrd.m4a": "/UppInt-Advent-Calendar/static/media/PhbIrd.5f432a589a0a08d90405.m4a",
     "static/media/teacher.m4a": "/UppInt-Advent-Calendar/static/media/teacher.33dafbc3dec06f8961e0.m4a",
@@ -27,12 +28,14 @@
     "static/media/power.m4a": "/UppInt-Advent-Calendar/static/media/power.a50d9e73f27ff4149e31.m4a",
     "static/media/take.m4a": "/UppInt-Advent-Calendar/static/media/take.50089c9a4223020c0e98.m4a",
     "static/media/research.m4a": "/UppInt-Advent-Calendar/static/media/research.edff5c61e994f0270c16.m4a",
+    "static/media/PhZH.m4a": "/UppInt-Advent-Calendar/static/media/PhZH.e15fdec3558c72aeb6b1.m4a",
     "static/media/otherwise.m4a": "/UppInt-Advent-Calendar/static/media/otherwise.2c72928ad38d299e325f.m4a",
     "static/media/hardware.m4a": "/UppInt-Advent-Calendar/static/media/hardware.1853bac1742c031a1835.m4a",
     "static/media/long.m4a": "/UppInt-Advent-Calendar/static/media/long.7800b453dda45219c8d0.m4a",
     "static/media/kingdom.m4a": "/UppInt-Advent-Calendar/static/media/kingdom.dfc90ddbdf12dba37752.m4a",
     "static/media/month.m4a": "/UppInt-Advent-Calendar/static/media/month.371cb4753e722069b608.m4a",
     "static/media/hook.m4a": "/UppInt-Advent-Calendar/static/media/hook.d1cb3ee6c295b60c3959.m4a",
+    "static/media/regime.m4a": "/UppInt-Advent-Calendar/static/media/regime.a0b1f24d1753f0ba92e3.m4a",
     "static/media/nature.m4a": "/UppInt-Advent-Calendar/static/media/nature.1f2e4792ad47863904dd.m4a",
     "static/media/PhNG.m4a": "/UppInt-Advent-Calendar/static/media/PhNG.3028e1c5d00758de0c4b.m4a",
     "static/media/production.m4a": "/UppInt-Advent-Calendar/static/media/production.ed3e8fe66711410d808b.m4a",
@@ -53,6 +56,7 @@
     "static/media/job.m4a": "/UppInt-Advent-Calendar/static/media/job.614a466c37e6166c38f4.m4a",
     "static/media/PhEI.m4a": "/UppInt-Advent-Calendar/static/media/PhEI.7ac30ad9bf94251da035.m4a",
     "static/media/boy.m4a": "/UppInt-Advent-Calendar/static/media/boy.368469d9c755ec8e6688.m4a",
+    "static/media/leisure.m4a": "/UppInt-Advent-Calendar/static/media/leisure.88d67440fc5be35078df.m4a",
     "static/media/PhDZ.m4a": "/UppInt-Advent-Calendar/static/media/PhDZ.a5143c12bd1dede52d60.m4a",
     "static/media/PhAI.m4a": "/UppInt-Advent-Calendar/static/media/PhAI.51d4744fb9189048e78a.m4a",
     "static/media/up.m4a": "/UppInt-Advent-Calendar/static/media/up.e9a78b2720edd500fb1a.m4a",
@@ -61,10 +65,10 @@
     "static/media/PhH.m4a": "/UppInt-Advent-Calendar/static/media/PhH.02b2799dd72bf629d834.m4a",
     "index.html": "/UppInt-Advent-Calendar/index.html",
     "main.74696a79.css.map": "/UppInt-Advent-Calendar/static/css/main.74696a79.css.map",
-    "main.45bc8725.js.map": "/UppInt-Advent-Calendar/static/js/main.45bc8725.js.map"
+    "main.3bc76d2b.js.map": "/UppInt-Advent-Calendar/static/js/main.3bc76d2b.js.map"
   },
   "entrypoints": [
     "static/css/main.74696a79.css",
-    "static/js/main.45bc8725.js"
+    "static/js/main.3bc76d2b.js"
   ]
 }
