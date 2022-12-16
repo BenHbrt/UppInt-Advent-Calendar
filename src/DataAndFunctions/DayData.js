@@ -329,7 +329,7 @@ const dayData = [
             phoneme: {  
                 symbol: "æ",
                 audio: "PhcAt.m4a",
-                examples: [["cat", "/kæt/", "cat.m4a"], ["language", "/læŋɡwɪdʒ/", "language.m4a"], ["financial", "/faɪnænʃəl/", "financial.m4a"]],
+                examples: [["cat", "/kæt/", "cat.m4a"], ["language", "/læŋɡwɪʤ/", "language.m4a"], ["financial", "/faɪnænʃəl/", "financial.m4a"]],
                 note: "This is a short vowel sound."
             },
             question: {
