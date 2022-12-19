@@ -138,7 +138,7 @@ const dayData = [
             phoneme: {  
                 symbol: "ɒ",
                 audio: "PhdOg.m4a",
-                examples: [["dog", "/dɒɡ/", "dog.m4a"], ["foreign", "/fɒrən/", "foreign.m4a"], ["knowledge", "/nɒlɪdʒ/", "nɒlɪdʒ.m4a"]],
+                examples: [["dog", "/dɒɡ/", "dog.m4a"], ["foreign", "/fɒrən/", "foreign.m4a"], ["knowledge", "/nɒlɪʤ/", "knowledge.m4a"]],
                 note: "This is a short vowel sound."
             },
             question: {
