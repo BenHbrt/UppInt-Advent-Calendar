@@ -6,16 +6,18 @@ import Content from './Components/Content';
 import Credits from './Components/Credits';
 import CreditsButton from './Components/CreditsButton';
 import Naughty from './Components/Naughty';
-import { useState, useRef } from 'react';
+import ChristmasDay from './Components/ChristmasDay';
+import checkChristmas from './DataAndFunctions/CheckChristmas';
+import { useState, useRef, useEffect } from 'react';
 
 function App() {
 
-  const [display, setDisplay] = useState("Calendar")
+  const today = getToday()
+  const [display, setDisplay] = useState(checkChristmas(today))
   const [content, setContent] = useState(null)
   const openedToday = useRef(false)
 
-  const today = getToday()
-
+  
   
   return (
     <div className="calendar">
@@ -41,6 +43,9 @@ function App() {
       </div>
       <div className={`${display === "Credits" ? "" : "hidden"} calendar_credits`}>
         <Credits setDisplay={setDisplay} />
+      </div>
+      <div className={`${display === "Christmas" ? "" : "hidden"} calendar_christmas`}>
+        <ChristmasDay setDisplay={setDisplay} />
       </div>
     </div>
   );
