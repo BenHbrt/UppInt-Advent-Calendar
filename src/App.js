@@ -8,6 +8,7 @@ import CreditsButton from './Components/CreditsButton';
 import Naughty from './Components/Naughty';
 import ChristmasDay from './Components/ChristmasDay';
 import checkChristmas from './DataAndFunctions/CheckChristmas';
+import isDemo from './DataAndFunctions/IsDemo';
 import { useState, useRef, useEffect } from 'react';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
   const [display, setDisplay] = useState(checkChristmas(today))
   const [content, setContent] = useState(null)
   const openedToday = useRef(false)
+  const demo = isDemo()
 
   
   
@@ -29,6 +31,7 @@ function App() {
           <h2>{today}</h2>
           {(display !== "Credits") && <CreditsButton setDisplay={setDisplay} />}
         </div>
+        {demo && <div className='calendar_banner_demo'><span>This is a demo, with the date as 10 Dec.</span></div>}
       </div>
       <div className={`${display === "Calendar" ? "" : "hidden"} calendar_container`}>
         {dayData.map((day, i) => {

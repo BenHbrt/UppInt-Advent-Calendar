@@ -1,9 +1,11 @@
+import generateDate from "./GenerateDate"
+
 const getToday = () => {
     const dayData = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
     const monthData = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
     // const dateObj = new Date()
     // const dateObj = new Date("2022-12-06")
-    const dateObj = new Date("2022-12-25")
+    const dateObj = generateDate()
     let day = dateObj.getDay()
     let month = dateObj.getMonth()
     day = dayData[day]

@@ -1,13 +1,14 @@
 import './Window.scss';
 import { useState } from 'react'
 import checkDate from '../DataAndFunctions/CheckDay';
+import generateDate from '../DataAndFunctions/GenerateDate';
 
 const Window = ({ data, setContent, setDisplay }) => {
 
     const [open, setOpen] = useState(checkDate(data.date))
     // const today = new Date()
     // const today = new Date("2022-12-06")
-    const today = new Date("2022-12-25")
+    const today = generateDate()
 
     const openWindow = () => {
         
