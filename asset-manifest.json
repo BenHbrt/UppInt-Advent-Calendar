@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/UppInt-Advent-Calendar/static/css/main.bb56e66d.css",
+    "main.css": "/UppInt-Advent-Calendar/static/css/main.cddf9b07.css",
     "main.js": "/UppInt-Advent-Calendar/static/js/main.12a59ca7.js",
     "static/media/santa-gac80d6d32_1920.jpg": "/UppInt-Advent-Calendar/static/media/santa-gac80d6d32_1920.78cd4b005a85a119a424.jpg",
     "static/media/hd-wallpaper-g96f4c3791_1280.jpg": "/UppInt-Advent-Calendar/static/media/hd-wallpaper-g96f4c3791_1280.662500d59dac19930e59.jpg",
@@ -98,11 +98,11 @@
     "static/media/dog.m4a": "/UppInt-Advent-Calendar/static/media/dog.9ba117f121944a13f4ce.m4a",
     "static/media/PhdOOR.m4a": "/UppInt-Advent-Calendar/static/media/PhdOOR.09387b0608e426adeb72.m4a",
     "index.html": "/UppInt-Advent-Calendar/index.html",
-    "main.bb56e66d.css.map": "/UppInt-Advent-Calendar/static/css/main.bb56e66d.css.map",
+    "main.cddf9b07.css.map": "/UppInt-Advent-Calendar/static/css/main.cddf9b07.css.map",
     "main.12a59ca7.js.map": "/UppInt-Advent-Calendar/static/js/main.12a59ca7.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb56e66d.css",
+    "static/css/main.cddf9b07.css",
     "static/js/main.12a59ca7.js"
   ]
 }
