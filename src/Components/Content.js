@@ -13,7 +13,8 @@ const Content = ({ content, setDisplay }) => {
     }
 
     const playExAudio = (date, name) => {
-        new Audio(require(`../Audio/${date}/${name}`)).play();
+        const audio = new Audio(require(`../Audio/${date}/${name}`));
+        audio.play();
     }
 
     const checkAnswer = () => {
